@@ -1,0 +1,98 @@
+import { v4 as uuidv4 } from "uuid";
+
+function chillHop() {
+  return [
+    {
+      name: "Blankets",
+      artist: "Aso",
+      cover: "https://i.scdn.co/image/87fa45a2bf0b42930fcf6db7a9524969afb3a76c",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=7920",
+      color: ["#B49AA7", "#A55F79"],
+      id: uuidv4(),
+      active: true,
+    },
+    {
+      name: "Some Are Of Love",
+      artist: "Psalm Trees",
+      cover: "https://i.scdn.co/image/ab67616d0000b273084e106f28b2fdfc8ac25382",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10542",
+      color: ["#F4E274", "#030909"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Higher",
+      artist: "Misha, Jussy Halme",
+      cover: "https://i.scdn.co/image/ab67616d0000b27382a863c04b0f7d55c8afed01",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=15088",
+      color: ["#2E385B", "#F28B84"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "i wish it would never stop snowing",
+      artist: "Sleepy Fish",
+      cover: "https://i.scdn.co/image/e679a351b106693e32cdd9acd0abd3976110fbba",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=7900",
+      color: ["#26A59C", "#2D2B40"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Momo",
+      artist: "Toonorth",
+      cover: "https://i.scdn.co/image/ab67616d0000b2731a273e8944a2a043cf9a8509",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=17943",
+      color: ["#3C4F6F", "#525870"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Voyage",
+      artist: "Leavv",
+      cover: "https://i.scdn.co/image/37b3e45e78ede560660d8ebbc7feb6f1133c058e",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=8351",
+      color: ["#E39B8D", "#37503A"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Cap's Café",
+      artist: "Aso, Middle School, Aviino",
+      cover: "https://i.scdn.co/image/ab67616d0000b27392ea33b2d11348d692352a33",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10077",
+      color: ["#1A5B5D", "#104346"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Whale Call",
+      artist: "Saib",
+      cover: "https://i.scdn.co/image/ab67616d0000b273327347dc82064bfd0c49b6a7",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=8099",
+      color: ["#588AA3", "#5697C5"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Bell Tower",
+      artist: "Mama Aiuto",
+      cover: "https://i.scdn.co/image/ab67616d0000b2733055a0a3763c99f9557e4029",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=21734",
+      color: ["#89A4AF", "#E7CC95"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Illusions",
+      artist: "Idealism",
+      cover: "https://i.scdn.co/image/23d4bb38261aec7428f6b621a0db1a2b6ce35e9d",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=8089",
+      color: ["#3C4B74", "#003760"],
+      id: uuidv4(),
+      active: false,
+    },
+  ];
+}
+
+export default chillHop;
